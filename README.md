@@ -73,6 +73,25 @@ python test.py --dataset_name FashionMNIST
 ## Results: 
 After training, the model weights are saved in files named `cnn_FashionMNIST.pth` or `cnn_MNIST.pth` depending on the dataset used for training. The testing script loads these weights and evaluates the model on the test set, printing the test loss and accuracy.
 
+### Visualize the outputs
+
+To visualize the results on the MNIST dataset:
+```bash
+python visualize.py --dataset_name MNIST
+```
+
+<p align="center">
+  <img src="MNIST_output.png" alt="Undistorted" width="650"/>
+</p>
+
+
+To visualize the results on the FashionMNIST dataset:
+```bash
+python visualize.py --dataset_name FashionMNIST
+```
+<p align="center">
+  <img src="FashionMNIST_output.png" alt="Undistorted" width="650"/>
+</p>
 
 
 

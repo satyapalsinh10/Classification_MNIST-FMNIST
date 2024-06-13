@@ -8,6 +8,8 @@ from cnn_m1 import CNN_M1
 import os
 import random
 
+random.seed(42)
+
 def imshow(img, ax):
     img = img / 2 + 0.5  # unnormalize
     npimg = img.numpy()
